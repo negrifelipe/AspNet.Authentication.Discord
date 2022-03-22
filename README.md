@@ -4,6 +4,11 @@ ASP.NET Core middleware that enables an application to support Discord's OAuth 2
 
 This package is based on [aspnet](https://github.com/dotnet/aspnetcore/tree/main/src/Security/Authentication) OAuth authentication middlewares
 
+## Installation
+```
+dotnet add package Feli.AspNet.Authentication.Discord
+```
+
 ## Setup Auth
 
 You can easily use discord oauth using the AddDiscord method.
